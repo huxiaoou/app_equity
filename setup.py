@@ -6,6 +6,7 @@ import pandas as pd
 from skyrim.winterhold import check_and_mkdir
 from skyrim.whiterun import CCalendar
 import xlwings as xw
+from time import sleep
 
 pd.set_option("display.width", 0)
 pd.set_option("display.float_format", "{:.2f}".format)
